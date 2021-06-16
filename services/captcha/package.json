@@ -1,0 +1,17 @@
+{
+  "name": "captcha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha .\\test\\unitTest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kando-dataparser": "^1.0.7",
+    "redis": "^3.1.2",
+    "svg-captcha": "^1.4.0"
+  }
+}
